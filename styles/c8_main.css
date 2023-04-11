@@ -1,25 +1,63 @@
 /* the styles for the elements */
+@media only screen and (max-width: 959px) {
+	main section h1{
+		font-size: 135%;
+	}
+	main section h2 {
+		font-size: 120%
+	}
+}
+
 * {
 	margin: 0;
 	padding: 0;
 }
+@media only screen and (max-width: 767px){
+	header img{
+		float: none;
+	}
+	header {
+		text-align: center;
+	}
+	main section {
+		float: none;
+		width: 94.32%;
+	}
+	aside {
+		float: none;
+		padding-right: 2.84%;
+		width: 94.32%;
+	}
+	article img {
+
+		max-width: 30%;
+
+	}
+}
+@media only screen and (max-width: 479px){
+
+	font-size: 90%;
+
+}
+
 html {
 	background-color: white;
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 800px;
+    width: 99%;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
+	max-width: 960px;
 }
 a:focus, a:hover {
 	font-style: italic;
 }
 /* the styles for the header */
 header {
-	padding: 1.5em 0 2em 0;
+	padding: 0.105% 0 2em 0.105%;
 	border-bottom: 3px solid #931420;
 		background-image: -moz-linear-gradient(
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
@@ -54,10 +92,11 @@ header img {
 }
 #nav_menu ul li {
 	float: left;
+	width: 13.334%;
 }
 #nav_menu ul li a {
     display: block;
-    width: 160px;
+    width: 13.334%;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
@@ -87,9 +126,9 @@ header img {
 
 /* the styles for the section */
 section {
-	width: 525px;
+	width: 54.6875%;
 	float: right;
-	padding: 0 20px 20px 20px;
+	padding: 0 2.84% 20px 2.84%;
 }
 section h1 {
 	font-size: 150%;
@@ -133,11 +172,13 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
+	max-width: 40%;
+	min-width: 150px;
 }
 
 /* the styles for the aside */
 aside {
-	width: 215px;
+	width: 22.3959%;
 	float: right;
 	padding: 0 0 20px 20px;
 }
